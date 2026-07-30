@@ -1,0 +1,18 @@
+{
+  "title": "附录",
+  "order": 17,
+  "items": [
+    {
+      "file": "hub-appendix.md",
+      "title": "附录"
+    },
+    {
+      "file": "tutorial-cases-overview.md",
+      "title": "教程案例"
+    },
+    {
+      "file": "tutorial-cases.md",
+      "title": "教程案例详解"
+    }
+  ]
+}

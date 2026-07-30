@@ -1,0 +1,10 @@
+# HtyWiki 云端知识库:禁止任何换行符转换。
+# App 侧用 git blob sha 判断"本地与云端是否一致",一旦 git 在 checkout/commit 时改写
+# 换行符,同一份内容的 sha 就会两边不同,增量同步与待上传差分会永久误报。
+* -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary

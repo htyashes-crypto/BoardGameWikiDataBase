@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="1920" height="1080" fill="#0f0f0f"/>
+
+  <!-- Unity 标题栏 -->
+  <rect width="1920" height="30" fill="#252525"/>
+  <text x="20" y="20" font-size="11" fill="#9ca3af">BoardGameEditor — BoardEditorScene · 十二军团</text>
+
+  <rect y="30" width="1920" height="22" fill="#1f1f1f"/>
+  <text x="20" y="46" font-size="11" fill="#9ca3af">File   Edit   Assets   GameObject   Component   Services   Achievements   Tools   Build</text>
+
+  <rect y="52" width="1920" height="26" fill="#1a1a1a"/>
+  <g transform="translate(700, 56)">
+    <rect width="40" height="20" rx="3" fill="#252525"/>
+    <text x="20" y="14" font-size="10" fill="#cc785c" text-anchor="middle">▶</text>
+  </g>
+
+  <rect y="78" width="1920" height="20" fill="#161616"/>
+  <text x="20" y="93" font-size="11" fill="#6b7280">桌游编辑器  ▸  十二军团</text>
+
+  <!-- ======= 左侧 sidebar：页签栏(80)+内容(280)=360 ======= -->
+  <!-- 页签栏 (x=0~80) -->
+  <rect x="0" y="98" width="80" height="922" fill="#0a0a0a"/>
+
+  <!-- 6 个页签按钮 -->
+  <!-- 1. 主菜单按钮 @ [15, 110, 50, 50] -->
+  <g transform="translate(15, 110)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <!-- 齿轮图标 -->
+    <circle cx="25" cy="25" r="9" fill="none" stroke="#cc785c" stroke-width="1.6"/>
+    <circle cx="25" cy="25" r="3" fill="#cc785c"/>
+    <line x1="25" y1="14" x2="25" y2="11" stroke="#cc785c" stroke-width="1.4"/>
+    <line x1="25" y1="36" x2="25" y2="39" stroke="#cc785c" stroke-width="1.4"/>
+    <line x1="14" y1="25" x2="11" y2="25" stroke="#cc785c" stroke-width="1.4"/>
+    <line x1="36" y1="25" x2="39" y2="25" stroke="#cc785c" stroke-width="1.4"/>
+  </g>
+
+  <!-- 2. 配置面板按钮 @ [15, 175, 50, 50] -->
+  <g transform="translate(15, 175)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <!-- 菱形 -->
+    <polygon points="25,10 38,25 25,40 12,25" fill="none" stroke="#9ca3af" stroke-width="1.6"/>
+    <line x1="25" y1="14" x2="25" y2="36" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="16" y1="25" x2="34" y2="25" stroke="#9ca3af" stroke-width="1"/>
+  </g>
+
+  <!-- 3. 层级浏览器按钮 @ [15, 240, 50, 50] -->
+  <g transform="translate(15, 240)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <!-- 列表三横 -->
+    <line x1="14" y1="16" x2="36" y2="16" stroke="#9ca3af" stroke-width="2"/>
+    <line x1="14" y1="25" x2="36" y2="25" stroke="#9ca3af" stroke-width="2"/>
+    <line x1="14" y1="34" x2="36" y2="34" stroke="#9ca3af" stroke-width="2"/>
+    <circle cx="11" cy="16" r="1.4" fill="#9ca3af"/>
+    <circle cx="11" cy="25" r="1.4" fill="#9ca3af"/>
+    <circle cx="11" cy="34" r="1.4" fill="#9ca3af"/>
+  </g>
+
+  <!-- 4. 保存按钮 @ [15, 305, 50, 50] —— 带红点 -->
+  <g transform="translate(15, 305)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <!-- 文档图标 -->
+    <rect x="14" y="12" width="22" height="26" rx="2" fill="none" stroke="#9ca3af" stroke-width="1.6"/>
+    <line x1="18" y1="20" x2="32" y2="20" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="18" y1="25" x2="32" y2="25" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="18" y1="30" x2="28" y2="30" stroke="#9ca3af" stroke-width="1"/>
+    <!-- 红点 -->
+    <circle cx="38" cy="38" r="5" fill="#ef4444"/>
+  </g>
+
+  <!-- 5. 运行项目按钮 @ [15, 370, 50, 50] -->
+  <g transform="translate(15, 370)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <polygon points="18,14 18,36 36,25" fill="#cc785c"/>
+  </g>
+
+  <!-- 6. 退出按钮 @ [15, 950, 50, 50] —— 底部 -->
+  <g transform="translate(15, 950)">
+    <rect width="50" height="50" rx="6" fill="#1f1f1f"/>
+    <!-- 退出图标（门 + 箭头） -->
+    <rect x="13" y="14" width="14" height="22" rx="1" fill="none" stroke="#9ca3af" stroke-width="1.6"/>
+    <line x1="22" y1="25" x2="36" y2="25" stroke="#9ca3af" stroke-width="1.6"/>
+    <polyline points="32,21 36,25 32,29" fill="none" stroke="#9ca3af" stroke-width="1.6"/>
+  </g>
+
+  <!-- 内容区：项目名称 / 当前查看 头部标签 -->
+  <rect x="80" y="98" width="280" height="36" fill="#161616"/>
+  <text x="100" y="121" font-size="13" fill="#cc785c" font-weight="600">项目名称</text>
+  <text x="200" y="121" font-size="12" fill="#9ca3af">当前查看</text>
+
+  <!-- 内容区：玩家配置 -->
+  <rect x="80" y="138" width="280" height="32" fill="#1a1a1a"/>
+  <text x="100" y="158" font-size="12" fill="#9ca3af" font-weight="600">▾ 玩家配置</text>
+  <text x="100" y="184" font-size="12" fill="#e5e5e5">  👤 玩家</text>
+  <text x="100" y="207" font-size="12" fill="#e5e5e5">  👤 玩家配置</text>
+
+  <!-- 全局配置 -->
+  <rect x="80" y="220" width="280" height="32" fill="#1a1a1a"/>
+  <text x="100" y="240" font-size="12" fill="#9ca3af" font-weight="600">▾ 全局配置</text>
+  <text x="100" y="266" font-size="12" fill="#e5e5e5">  👤 项目设置</text>
+  <text x="100" y="289" font-size="12" fill="#e5e5e5">  👤 配置表</text>
+  <text x="100" y="312" font-size="12" fill="#e5e5e5">  👤 全局规则配置</text>
+  <text x="100" y="335" font-size="12" fill="#e5e5e5">  👤 全局对象</text>
+
+  <!-- 资产管理 -->
+  <rect x="80" y="348" width="280" height="32" fill="#1a1a1a"/>
+  <text x="100" y="368" font-size="12" fill="#9ca3af" font-weight="600">▾ 资产管理</text>
+  <text x="100" y="394" font-size="12" fill="#e5e5e5">  👤 导出包体</text>
+  <text x="100" y="417" font-size="12" fill="#e5e5e5">  👤 玩家配置</text>
+  <text x="100" y="440" font-size="12" fill="#e5e5e5">  👤 导入包体</text>
+  <text x="100" y="463" font-size="12" fill="#e5e5e5">  👤 包体管理器</text>
+  <text x="100" y="486" font-size="12" fill="#e5e5e5">  👤 导入图片</text>
+
+  <!-- 高级功能 -->
+  <rect x="80" y="500" width="280" height="32" fill="#1a1a1a"/>
+  <text x="100" y="520" font-size="12" fill="#9ca3af" font-weight="600">▾ 高级功能</text>
+  <text x="100" y="546" font-size="12" fill="#e5e5e5">  👤 全局计时器</text>
+  <text x="100" y="569" font-size="12" fill="#e5e5e5">  👤 动态预制体表</text>
+  <text x="100" y="592" font-size="12" fill="#e5e5e5">  👤 自定义枚举</text>
+  <text x="100" y="615" font-size="12" fill="#e5e5e5">  👤 游戏条件</text>
+
+  <!-- 内容区底部按钮 -->
+  <rect x="100" y="965" width="240" height="36" rx="4" fill="#252525" stroke="#2a2a2a"/>
+  <text x="220" y="988" font-size="12" fill="#e5e5e5" text-anchor="middle">打开编辑窗口</text>
+
+  <!-- ======= 中央编辑区 (x=360~1620) ======= -->
+  <rect x="360" y="98" width="1260" height="922" fill="#0a0a0a"/>
+  <line x1="360" y1="98" x2="360" y2="1020" stroke="#0f0f0f"/>
+
+  <!-- 顶部视图切换 -->
+  <g transform="translate(380, 110)">
+    <rect width="40" height="32" rx="4" fill="#252525"/>
+    <text x="20" y="22" font-size="14" fill="#9ca3af" text-anchor="middle">⊞</text>
+  </g>
+  <g transform="translate(425, 110)">
+    <rect width="40" height="32" rx="4" fill="#252525"/>
+    <text x="20" y="22" font-size="14" fill="#9ca3af" text-anchor="middle">⊟</text>
+  </g>
+  <g transform="translate(470, 110)">
+    <rect width="40" height="32" rx="4" fill="#cc785c"/>
+    <text x="20" y="22" font-size="13" fill="#fff" text-anchor="middle">📷</text>
+  </g>
+
+  <!-- 中央画布（蓝色矩形示意场景） -->
+  <rect x="380" y="160" width="1220" height="540" rx="4" fill="#1e3a5f" fill-opacity="0.4" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="990" y="440" font-size="32" fill="#3b82f6" fill-opacity="0.4" text-anchor="middle" font-weight="300">场景预览区</text>
+
+  <!-- 当前查看 + 默认 视图Tab -->
+  <g transform="translate(740, 720)">
+    <rect width="120" height="22" rx="3" fill="#161616" stroke="#2a2a2a"/>
+    <text x="60" y="15" font-size="11" fill="#9ca3af" text-anchor="middle">当前查看(2.5度) · 默认 ▾</text>
+  </g>
+
+  <!-- 中央底部预制体面板 -->
+  <rect x="380" y="752" width="1220" height="248" rx="4" fill="#161616" stroke="#2a2a2a"/>
+  <!-- 一些占位按钮 -->
+  <g transform="translate(400, 770)">
+    <rect width="120" height="50" rx="3" fill="#0a0a0a"/>
+    <text x="60" y="20" font-size="11" fill="#9ca3af" text-anchor="middle">▼ 实例</text>
+    <text x="60" y="36" font-size="9" fill="#6b7280" text-anchor="middle">默认</text>
+    <text x="60" y="48" font-size="9" fill="#6b7280" text-anchor="middle">182626</text>
+  </g>
+  <g transform="translate(400, 830)">
+    <rect width="120" height="50" rx="3" fill="#0a0a0a"/>
+    <text x="60" y="20" font-size="11" fill="#9ca3af" text-anchor="middle">▼ 预制体</text>
+    <text x="60" y="36" font-size="9" fill="#6b7280" text-anchor="middle">默认</text>
+  </g>
+  <g transform="translate(400, 890)">
+    <rect width="120" height="50" rx="3" fill="#0a0a0a"/>
+    <text x="60" y="20" font-size="11" fill="#9ca3af" text-anchor="middle">▼ UI根据</text>
+    <text x="60" y="36" font-size="9" fill="#6b7280" text-anchor="middle">MainUI_241</text>
+    <text x="60" y="46" font-size="9" fill="#6b7280" text-anchor="middle">172441</text>
+  </g>
+  <g transform="translate(400, 950)">
+    <rect width="120" height="44" rx="3" fill="#0a0a0a"/>
+    <text x="60" y="22" font-size="11" fill="#9ca3af" text-anchor="middle">▼ U图集合</text>
+  </g>
+
+  <!-- ======= 右侧检查器 (x=1620~1920) ======= -->
+  <rect x="1620" y="98" width="300" height="922" fill="#161616"/>
+  <line x1="1620" y1="98" x2="1620" y2="1020" stroke="#2a2a2a"/>
+
+  <text x="1640" y="125" font-size="13" fill="#9ca3af" font-weight="600">属性编辑</text>
+  <text x="1820" y="125" font-size="13" fill="#9ca3af" font-weight="600" text-anchor="end">行为编辑</text>
+  <line x1="1620" y1="135" x2="1920" y2="135" stroke="#2a2a2a"/>
+  <text x="1770" y="170" font-size="12" fill="#6b7280" text-anchor="middle">未选中对象</text>
+
+  <!-- 状态栏 -->
+  <rect y="1020" width="1920" height="60" fill="#0a0a0a"/>
+  <text x="40" y="1056" font-size="11" fill="#6b7280">十二军团 · 已编辑</text>
+  <text x="1880" y="1056" font-size="11" fill="#6b7280" text-anchor="end">激活 Windows</text>
+</svg>

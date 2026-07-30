@@ -1,0 +1,24 @@
+{
+  "title": "桌游编辑器",
+  "order": 0,
+  "items": [
+    "overview",
+    "interface-project-browser",
+    "interface-project-browser-add-project",
+    "interface-project-browser-project-actions",
+    "interface-main",
+    "interface-main-sidebar",
+    "interface-main-edit-window",
+    "interface-main-resource-explorer",
+    "interface-main-inspector",
+    "blueprint",
+    "blueprint-project-management-interface",
+    "blueprint-management",
+    "blueprint-editor",
+    "features",
+    "features-config-panel",
+    "features-entity-widgets",
+    "features-ui-widgets",
+    "appendix"
+  ]
+}

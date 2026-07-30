@@ -1,0 +1,18 @@
+{
+  "title": "界面介绍 · 主界面 · 编辑窗口",
+  "order": 6,
+  "items": [
+    {
+      "file": "er-ce-edit-window.md",
+      "title": "二、编辑窗口"
+    },
+    {
+      "file": "expand-collapse.md",
+      "title": "展开和收起"
+    },
+    {
+      "file": "tab-management.md",
+      "title": "页签管理"
+    }
+  ]
+}

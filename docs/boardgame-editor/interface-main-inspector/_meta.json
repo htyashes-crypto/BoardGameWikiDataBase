@@ -1,0 +1,18 @@
+{
+  "title": "界面介绍 · 主界面 · 属性编辑器",
+  "order": 8,
+  "items": [
+    {
+      "file": "si-ce-inspector.md",
+      "title": "四、属性编辑器"
+    },
+    {
+      "file": "property-edit.md",
+      "title": "属性编辑"
+    },
+    {
+      "file": "blueprint-mount.md",
+      "title": "蓝图挂载"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">  <rect width="1920" height="1080" fill="#151515"/>
+  <rect x="0" y="0" width="120" height="1080" fill="#111"/>
+  <circle cx="60" cy="50" r="18" fill="#cc785c"/><text x="160" y="56" font-size="24" fill="#f5f5f5" font-weight="700">桌游编辑器</text><text x="300" y="58" font-size="34" fill="#f5f5f5">⚙</text>
+  <rect x="145" y="85" width="1240" height="690" fill="#181818"/>
+  <g font-size="16" fill="#ccc"><text x="175" y="120">图里变量管理</text><text x="335" y="120">全局事件管理</text><rect x="450" y="100" width="180" height="40" fill="#2a2a2a" stroke="#555"/><text x="540" y="126" text-anchor="middle">结构体管理</text><text x="680" y="120">标签函数</text></g>
+  <rect x="145" y="150" width="120" height="34" fill="#2a2a2a" stroke="#333"/><text x="205" y="172" font-size="14" fill="#ddd" text-anchor="middle">新建结构体</text>
+  <rect x="265" y="155" width="180" height="34" fill="#f5f5f5"/><text x="355" y="178" font-size="13" fill="#888" text-anchor="middle">Enter text...</text>
+  <text x="145" y="910" font-size="14" fill="#eee">No translation found for 'blueprint.mainPanel.struct.extensionTitle'</text>
+
+
+
+  <rect data-hotspot-id="input-struct-name" data-hotspot-rect="265,155,180,34" x="265" y="155" width="180" height="34" rx="4" fill="none" stroke="#ff4d4f" stroke-width="3"><animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="420" y="250" font-size="24" fill="#ffd166" font-weight="700">在文本框内输入结构体名称：卡牌数据</text>
+</svg>

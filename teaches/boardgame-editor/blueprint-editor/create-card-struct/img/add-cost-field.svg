@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">  <rect width="1920" height="1080" fill="#151515"/>
+  <rect x="0" y="0" width="120" height="1080" fill="#111"/>
+  <circle cx="60" cy="50" r="18" fill="#cc785c"/><text x="160" y="56" font-size="24" fill="#f5f5f5" font-weight="700">桌游编辑器</text><text x="300" y="58" font-size="34" fill="#f5f5f5">⚙</text>
+  <rect x="145" y="85" width="1240" height="690" fill="#181818"/>
+  <g font-size="16" fill="#ccc"><text x="175" y="120">图里变量管理</text><text x="335" y="120">全局事件管理</text><rect x="450" y="100" width="180" height="40" fill="#2a2a2a" stroke="#555"/><text x="540" y="126" text-anchor="middle">结构体管理</text><text x="680" y="120">标签函数</text></g>
+  <rect x="145" y="150" width="120" height="34" fill="#151515" stroke="#333"/><text x="205" y="172" font-size="14" fill="#ddd" text-anchor="middle">新建结构体</text>
+  <rect x="265" y="155" width="180" height="34" fill="#f5f5f5"/><text x="355" y="178" font-size="13" fill="#888" text-anchor="middle">Enter text...</text>
+  <text x="145" y="910" font-size="14" fill="#eee">No translation found for 'blueprint.mainPanel.struct.extensionTitle'</text>
+<rect x="160" y="205" width="280" height="86" fill="#111" stroke="#444"/><text x="180" y="235" font-size="16" fill="#f5f5f5">卡牌数据</text><text x="420" y="230" font-size="22" fill="#aaa" text-anchor="middle">≡</text>
+  <rect x="1260" y="115" width="500" height="820" fill="#181818"/>
+  <rect x="1260" y="115" width="500" height="34" fill="#2a2a2a"/><text x="1510" y="139" font-size="16" fill="#eee" text-anchor="middle">属性检查器</text>
+  <text x="1280" y="180" font-size="15" fill="#ddd">结构体名称</text><rect x="1380" y="160" width="260" height="28" fill="#f5f5f5"/><text x="1510" y="180" font-size="14" fill="#111" text-anchor="middle">卡牌数据</text>
+  <text x="1280" y="240" font-size="15" fill="#ddd">字段列表</text><text x="1465" y="240" font-size="24" fill="#58d66b">+</text>
+<rect x="1268" y="280" width="470" height="36" fill="#111" stroke="#333"/><text x="1280" y="304" font-size="14" fill="#aaa">ID</text><rect x="1420" y="288" width="78" height="24" fill="#fff"/><text x="1459" y="306" font-size="13" fill="#111" text-anchor="middle">Int</text><rect x="1268" y="318" width="470" height="36" fill="#111" stroke="#333"/><text x="1280" y="342" font-size="14" fill="#aaa">名称</text><rect x="1420" y="326" width="78" height="24" fill="#fff"/><text x="1459" y="344" font-size="13" fill="#111" text-anchor="middle">String</text><rect x="1268" y="356" width="470" height="36" fill="#111" stroke="#333"/><text x="1280" y="380" font-size="14" fill="#aaa">费用</text><rect x="1420" y="364" width="78" height="24" fill="#fff"/><text x="1459" y="382" font-size="13" fill="#111" text-anchor="middle">Int</text>
+  <rect data-hotspot-id="add-cost-field" data-hotspot-rect="1260,280,240,100" x="1260" y="280" width="240" height="100" rx="4" fill="none" stroke="#ff4d4f" stroke-width="3"><animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="920" y="430" font-size="24" fill="#ffd166" font-weight="700">继续添加费用字段，卡牌结构体制作完成</text>
+</svg>

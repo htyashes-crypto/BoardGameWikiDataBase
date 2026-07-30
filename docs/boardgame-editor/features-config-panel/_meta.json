@@ -1,0 +1,54 @@
+{
+  "title": "主要功能 · 配置面板",
+  "order": 14,
+  "items": [
+    {
+      "file": "yi-ce-config-panel.md",
+      "title": "一、配置面板"
+    },
+    {
+      "file": "player-type-config.md",
+      "title": "玩家类型配置"
+    },
+    {
+      "file": "seat-config.md",
+      "title": "座位配置"
+    },
+    {
+      "file": "config-sheet.md",
+      "title": "配置表"
+    },
+    {
+      "file": "global-rules-config.md",
+      "title": "全局规则配置"
+    },
+    {
+      "file": "global-objects.md",
+      "title": "全局对象"
+    },
+    {
+      "file": "import-images.md",
+      "title": "导入图片"
+    },
+    {
+      "file": "global-timer.md",
+      "title": "全局计时器"
+    },
+    {
+      "file": "custom-enums.md",
+      "title": "自定义枚举"
+    },
+    {
+      "file": "player-elimination-rules.md",
+      "title": "玩家淘汰规则"
+    },
+    {
+      "file": "game-end-rules.md",
+      "title": "游戏结束规则"
+    },
+    {
+      "file": "win-loss-conditions.md",
+      "title": "淘汰条件/胜负条件"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "蓝图编辑器 · 蓝图编辑界面",
+  "order": 12,
+  "items": [
+    {
+      "file": "san-ce-blueprint-editor.md",
+      "title": "三、蓝图编辑界面"
+    },
+    {
+      "file": "left-sidebar.md",
+      "title": "左侧边栏"
+    },
+    {
+      "file": "top-toolbar.md",
+      "title": "顶部工具栏"
+    },
+    {
+      "file": "property-inspector.md",
+      "title": "属性检查器"
+    },
+    {
+      "file": "top-bar.md",
+      "title": "顶边栏"
+    }
+  ]
+}

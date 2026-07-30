@@ -1,0 +1,8 @@
+{
+  "title": "蓝图编辑界面",
+  "order": 2,
+  "items": [
+    "create-card-struct",
+    "create-card-blueprint"
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "id": "editor-intro",
+  "title": "桌游编辑器入门导览",
+  "description": "6 步互动了解项目浏览与主界面侧边栏：3 种添加项目方式 / 工程行操作 / 6 个页签按钮",
+  "entryScene": "project-browser",
+  "scenes": {
+    "project-browser": {
+      "background": "img/project-browser.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-open-project",
+          "rect": [
+            1450,
+            110,
+            90,
+            36
+          ],
+          "tooltip": "点击从本地任意位置导入桌游工程",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "「打开工程」可导入任意位置的本地桌游工程",
+              "anchorScene": "project-browser",
+              "durationMs": 1500
+            },
+            {
+              "type": "openPopup",
+              "popup": "open-dialog"
+            }
+          ]
+        },
+        {
+          "id": "btn-new-project",
+          "rect": [
+            1545,
+            110,
+            90,
+            36
+          ],
+          "tooltip": "从模板新建工程",
+          "actions": [
+            {
+              "type": "openPopup",
+              "popup": "template-market"
+            }
+          ]
+        },
+        {
+          "id": "btn-game-store",
+          "rect": [
+            1640,
+            110,
+            90,
+            36
+          ],
+          "tooltip": "下载已发布的桌游",
+          "actions": [
+            {
+              "type": "openPopup",
+              "popup": "game-store"
+            }
+          ]
+        },
+        {
+          "id": "row-first-export",
+          "rect": [
+            1488,
+            230,
+            32,
+            32
+          ],
+          "tooltip": "导出此工程到本地",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "导出按钮：把工程打包发到任意位置",
+              "anchorScene": "project-browser",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "row-first-run",
+          "rect": [
+            1530,
+            230,
+            32,
+            32
+          ],
+          "tooltip": "直接运行此工程",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "运行按钮：直接进入联机大厅游玩",
+              "anchorScene": "project-browser",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "row-first-remove",
+          "rect": [
+            1572,
+            230,
+            80,
+            32
+          ],
+          "tooltip": "从列表移除（不删除文件）",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "移除按钮：仅从列表移除，本地文件保留",
+              "anchorScene": "project-browser",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "row-first-open",
+          "rect": [
+            80,
+            215,
+            1400,
+            56
+          ],
+          "tooltip": "点击进入「十二军团」编辑界面",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "main-editor"
+            }
+          ]
+        }
+      ]
+    },
+    "main-editor": {
+      "background": "img/main-editor.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "tab-menu",
+          "rect": [
+            15,
+            110,
+            50,
+            50
+          ],
+          "tooltip": "主菜单：切换显示/隐藏主界面",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "主菜单按钮：切换显示/隐藏主要界面",
+              "anchorScene": "main-editor",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "tab-config",
+          "rect": [
+            15,
+            175,
+            50,
+            50
+          ],
+          "tooltip": "配置面板：4 类配置项",
+          "actions": [
+            {
+              "type": "highlight",
+              "rect": [
+                80,
+                90,
+                280,
+                740
+              ],
+              "durationMs": 2400
+            },
+            {
+              "type": "tooltip",
+              "text": "配置面板：玩家/全局/资产/高级 四类",
+              "anchorScene": "main-editor",
+              "durationMs": 2400
+            }
+          ]
+        },
+        {
+          "id": "tab-hierarchy",
+          "rect": [
+            15,
+            240,
+            50,
+            50
+          ],
+          "tooltip": "层级浏览器",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "层级浏览器：当前场景 / 预制体 / UI 的节点树",
+              "anchorScene": "main-editor",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "tab-save",
+          "rect": [
+            15,
+            305,
+            50,
+            50
+          ],
+          "tooltip": "保存（红点 = 有未保存改动）",
+          "actions": [
+            {
+              "type": "highlight",
+              "rect": [
+                15,
+                305,
+                50,
+                50
+              ],
+              "durationMs": 2200
+            },
+            {
+              "type": "tooltip",
+              "text": "保存按钮：右下红点表示有未保存改动",
+              "anchorScene": "main-editor",
+              "durationMs": 2200
+            }
+          ]
+        },
+        {
+          "id": "tab-run",
+          "rect": [
+            15,
+            370,
+            50,
+            50
+          ],
+          "tooltip": "运行项目",
+          "actions": [
+            {
+              "type": "tooltip",
+              "text": "运行项目：从当前编辑工程直接进入联机大厅",
+              "anchorScene": "main-editor",
+              "durationMs": 1800
+            }
+          ]
+        },
+        {
+          "id": "tab-exit",
+          "rect": [
+            15,
+            950,
+            50,
+            50
+          ],
+          "tooltip": "退出当前项目，回到项目浏览界面",
+          "actions": [
+            {
+              "type": "sequence",
+              "delayMs": 200,
+              "actions": [
+                {
+                  "type": "tooltip",
+                  "text": "教程完成 ✓ 即将返回项目浏览界面",
+                  "anchorScene": "main-editor",
+                  "durationMs": 1200
+                },
+                {
+                  "type": "navigate",
+                  "to": "project-browser"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "popups": {
+    "open-dialog": {
+      "background": "img/open-dialog.svg",
+      "size": [
+        560,
+        380
+      ],
+      "modal": true,
+      "hotspots": [
+        {
+          "id": "open-dialog-cancel",
+          "rect": [
+            320,
+            332,
+            100,
+            32
+          ],
+          "tooltip": "取消",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        },
+        {
+          "id": "open-dialog-confirm",
+          "rect": [
+            436,
+            332,
+            108,
+            32
+          ],
+          "tooltip": "选中此目录确认导入",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        }
+      ]
+    },
+    "template-market": {
+      "background": "img/template-market.svg",
+      "size": [
+        780,
+        480
+      ],
+      "modal": true,
+      "hotspots": [
+        {
+          "id": "template-cancel",
+          "rect": [
+            580,
+            432,
+            90,
+            32
+          ],
+          "tooltip": "取消",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        },
+        {
+          "id": "template-create",
+          "rect": [
+            680,
+            432,
+            88,
+            32
+          ],
+          "tooltip": "基于所选模板新建项目",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        }
+      ]
+    },
+    "game-store": {
+      "background": "img/game-store.svg",
+      "size": [
+        780,
+        480
+      ],
+      "modal": true,
+      "hotspots": [
+        {
+          "id": "store-cancel",
+          "rect": [
+            560,
+            432,
+            90,
+            32
+          ],
+          "tooltip": "取消",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        },
+        {
+          "id": "store-download",
+          "rect": [
+            660,
+            432,
+            108,
+            32
+          ],
+          "tooltip": "下载所选游戏到本地",
+          "actions": [
+            {
+              "type": "closePopup"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

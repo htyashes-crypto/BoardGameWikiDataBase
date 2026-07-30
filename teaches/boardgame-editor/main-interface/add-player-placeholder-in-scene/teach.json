@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "id": "add-player-placeholder-in-scene",
+  "title": "场景内添加玩家占位对象",
+  "description": "在默认场景中创建玩家占位对象、修改类型、重命名并保存",
+  "entryScene": "click-scene-folder",
+  "scenes": {
+    "click-scene-folder": {
+      "background": "img/click-scene-folder.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-scene-folder",
+          "rect": [
+            500,
+            820,
+            220,
+            44
+          ],
+          "tooltip": "点击场景",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "open-default-scene"
+            }
+          ]
+        }
+      ]
+    },
+    "open-default-scene": {
+      "background": "img/open-default-scene.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "open-default-scene",
+          "rect": [
+            712,
+            842,
+            92,
+            105
+          ],
+          "tooltip": "点击默认场景",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-hierarchy-browser"
+            }
+          ]
+        }
+      ]
+    },
+    "click-hierarchy-browser": {
+      "background": "img/click-hierarchy-browser.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-hierarchy-browser",
+          "rect": [
+            20,
+            265,
+            50,
+            60
+          ],
+          "tooltip": "点击层级浏览器按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "right-click-empty-hierarchy"
+            }
+          ]
+        }
+      ]
+    },
+    "right-click-empty-hierarchy": {
+      "background": "img/right-click-empty-hierarchy.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "right-click-empty-hierarchy",
+          "rect": [
+            170,
+            100,
+            320,
+            760
+          ],
+          "tooltip": "在空白区域右键点击",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-create-new-object"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-create-new-object": {
+      "background": "img/choose-create-new-object.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-create-new-object",
+          "rect": [
+            500,
+            116,
+            405,
+            34
+          ],
+          "tooltip": "选择对象/创建新对象",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-object-type-dropdown"
+            }
+          ]
+        }
+      ]
+    },
+    "click-object-type-dropdown": {
+      "background": "img/click-object-type-dropdown.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-object-type-dropdown",
+          "rect": [
+            1605,
+            465,
+            180,
+            32
+          ],
+          "tooltip": "点击空对象类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-player-category"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-player-category": {
+      "background": "img/choose-player-category.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-player-category",
+          "rect": [
+            1410,
+            520,
+            405,
+            32
+          ],
+          "tooltip": "选择玩家分类",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-player-placeholder-type"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-player-placeholder-type": {
+      "background": "img/choose-player-placeholder-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-player-placeholder-type",
+          "rect": [
+            1410,
+            520,
+            405,
+            32
+          ],
+          "tooltip": "选择玩家占位对象",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "right-click-new-object"
+            }
+          ]
+        }
+      ]
+    },
+    "right-click-new-object": {
+      "background": "img/right-click-new-object.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "right-click-new-object",
+          "rect": [
+            170,
+            115,
+            320,
+            42
+          ],
+          "tooltip": "右键点击新对象",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-object-category"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-object-category": {
+      "background": "img/choose-object-category.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-object-category",
+          "rect": [
+            500,
+            380,
+            405,
+            32
+          ],
+          "tooltip": "选择对象分类",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-rename-object"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-rename-object": {
+      "background": "img/choose-rename-object.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-rename-object",
+          "rect": [
+            500,
+            412,
+            405,
+            32
+          ],
+          "tooltip": "选择重命名",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "confirm-rename-object"
+            }
+          ]
+        }
+      ]
+    },
+    "confirm-rename-object": {
+      "background": "img/confirm-rename-object.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "confirm-rename-object",
+          "rect": [
+            700,
+            368,
+            90,
+            34
+          ],
+          "tooltip": "点击 Confirm 确认",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-player-placeholder-object"
+            }
+          ]
+        }
+      ]
+    },
+    "save-player-placeholder-object": {
+      "background": "img/save-player-placeholder-object.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "save-player-placeholder-object",
+          "rect": [
+            20,
+            330,
+            50,
+            60
+          ],
+          "tooltip": "点击保存按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-scene-folder"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "edit-player-type",
+  "title": "编辑玩家类型",
+  "description": "新建玩家类型，修改名称并保存到当前工程项目",
+  "entryScene": "click-player-type",
+  "scenes": {
+    "click-player-type": {
+      "background": "img/click-player-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-player-type",
+          "rect": [
+            100,
+            110,
+            300,
+            34
+          ],
+          "tooltip": "点击玩家类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-player-type"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-player-type": {
+      "background": "img/click-add-player-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-add-player-type",
+          "rect": [
+            542,
+            76,
+            130,
+            52
+          ],
+          "tooltip": "点击 Add 新建玩家类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-edit-player-type"
+            }
+          ]
+        }
+      ]
+    },
+    "click-edit-player-type": {
+      "background": "img/click-edit-player-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-edit-player-type",
+          "rect": [
+            690,
+            142,
+            54,
+            46
+          ],
+          "tooltip": "点击 Edit 修改名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "confirm-player-type-name"
+            }
+          ]
+        }
+      ]
+    },
+    "confirm-player-type-name": {
+      "background": "img/confirm-player-type-name.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-confirm-player-type-name",
+          "rect": [
+            942,
+            454,
+            104,
+            44
+          ],
+          "tooltip": "点击 Confirm 确认修改名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-player-type"
+            }
+          ]
+        }
+      ]
+    },
+    "save-player-type": {
+      "background": "img/save-player-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-save-project",
+          "rect": [
+            20,
+            330,
+            50,
+            60
+          ],
+          "tooltip": "点击保存按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-player-type"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

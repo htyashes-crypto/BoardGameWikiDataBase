@@ -1,0 +1,14 @@
+{
+  "title": "概述",
+  "order": 0,
+  "items": [
+    {
+      "file": "about-this-manual.md",
+      "title": "桌游编辑器说明文档"
+    },
+    {
+      "file": "preface.md",
+      "title": "前言"
+    }
+  ]
+}

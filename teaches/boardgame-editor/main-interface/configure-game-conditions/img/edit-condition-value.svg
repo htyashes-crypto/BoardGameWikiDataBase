@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">  <rect width="1920" height="1080" fill="#0f0f0f"/>
+  <rect x="0" y="0" width="70" height="1080" fill="#151515"/>
+  <g transform="translate(20, 28)"><circle cx="16" cy="16" r="16" fill="#cc785c"/><circle cx="16" cy="16" r="6" fill="#0f0f0f"/></g>
+  <g fill="#9ca3af" font-size="28" text-anchor="middle"><text x="35" y="92">⚙</text><text x="35" y="150">◆</text><text x="35" y="205">▤</text><text x="35" y="260">▦</text></g>
+  <g id="save-button" transform="translate(20, 330)"><rect width="50" height="60" rx="4" fill="#cc785c" opacity="0.32"/><text x="25" y="38" font-size="30" fill="#e5e5e5" text-anchor="middle">▣</text></g>
+  <rect x="70" y="0" width="430" height="1080" fill="#161616"/>
+  <text x="110" y="42" font-size="18" fill="#f5f5f5" font-weight="700">项目首页</text>
+  <text x="110" y="90" font-size="13" fill="#9ca3af" font-weight="700">玩家配置</text>
+  <g font-size="13" fill="#e5e5e5">
+    <rect x="100" y="110" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="132">玩家类型</text>
+    <rect x="100" y="150" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="172">座位设置</text>
+  </g>
+  <text x="110" y="230" font-size="13" fill="#9ca3af" font-weight="700">全局配置</text>
+  <g font-size="13" fill="#e5e5e5">
+    <rect x="100" y="250" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="272">项目设置</text>
+    <rect x="100" y="290" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="312">图集表</text>
+    <rect x="100" y="330" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="352">玩家配置</text>
+  </g>
+  <text x="110" y="455" font-size="13" fill="#9ca3af" font-weight="700">资产配置</text>
+  <g font-size="13" fill="#e5e5e5">
+    <rect x="100" y="475" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="497">导出物体</text>
+    <rect x="100" y="515" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="537">导入图片</text>
+  </g>
+  <text x="110" y="610" font-size="13" fill="#9ca3af" font-weight="700">规则设置</text>
+  <g font-size="13" fill="#e5e5e5">
+    <rect x="100" y="640" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="662">游戏条件</text>
+    <rect x="100" y="680" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="702">玩家淘汰</text>
+    <rect x="100" y="720" width="300" height="34" fill="#101010" stroke="#252525"/><text x="145" y="742">胜负规则</text>
+  </g>
+  <rect x="500" y="0" width="980" height="820" fill="#2f4f7d"/>
+  <rect x="500" y="0" width="980" height="52" fill="#222"/>
+  <g fill="#9ca3af" font-size="26"><text x="525" y="92">↔</text><text x="565" y="92">⟳</text><text x="605" y="92">▦</text><text x="645" y="92">◈</text><text x="685" y="92">◎</text></g>
+  <rect x="500" y="820" width="980" height="260" fill="#1a1a1a"/>
+  <g font-size="13" fill="#e5e5e5"><rect x="720" y="864" width="90" height="95" fill="#252525" stroke="#2a2a2a"/><text x="765" y="910" font-size="42" text-anchor="middle">▰</text><text x="765" y="944" text-anchor="middle">默认场景</text></g>
+  <rect x="1480" y="0" width="440" height="1080" fill="#151515"/>
+  <rect x="1480" y="0" width="440" height="52" fill="#1c1c1c"/>
+  <text x="1535" y="33" font-size="13" fill="#9ca3af">属性编辑</text><text x="1655" y="33" font-size="13" fill="#9ca3af">行为编辑</text><text x="1778" y="33" font-size="13" fill="#9ca3af">Mod行为编辑</text>  <rect x="500" y="52" width="980" height="690" fill="#b8b8b8"/>
+  <rect x="500" y="52" width="980" height="38" fill="#2a2a2a"/>
+  <rect x="620" y="55" width="120" height="32" fill="#d18a77"/><text x="680" y="77" font-size="14" fill="#fff" text-anchor="middle">游戏条件</text>
+  <rect x="760" y="58" width="170" height="24" fill="#ffffff"/><text x="845" y="76" font-size="12" fill="#111" text-anchor="middle">作用域 Global</text>
+  <text x="520" y="125" font-size="16" fill="#111">Filter text...</text><rect x="500" y="140" width="180" height="600" fill="#111" opacity="0.9"/>
+<rect x="500" y="172" width="180" height="34" fill="#ffffff" stroke="#a0a0a0"/><text x="526" y="195" font-size="16" fill="#111">游戏结束条件</text>
+<text x="690" y="122" font-size="14" fill="#111">名称</text><rect x="680" y="120" width="800" height="32" fill="#ffffff" stroke="#222"/><text x="710" y="142" font-size="16" fill="#111">游戏结束条件</text>
+  <rect x="680" y="184" width="800" height="42" fill="#111"/><text x="1080" y="212" font-size="18" fill="#fff" text-anchor="middle">Global</text>
+<rect x="680" y="260" width="800" height="52" fill="#9fd38a" stroke="#111"/><text x="880" y="294" font-size="20" fill="#111">玩家存活数</text><text x="1000" y="294" font-size="26" fill="#111">等于</text><rect x="1025" y="278" width="66" height="34" fill="#ffffff"/><text x="1058" y="302" font-size="18" fill="#111" text-anchor="middle">1</text><text x="1125" y="294" font-size="18" fill="#111">Button</text>
+  <rect x="500" y="742" width="180" height="44" fill="#ffffff"/><text x="590" y="772" font-size="28" fill="#111" text-anchor="middle">Add</text>
+  <rect x="680" y="742" width="800" height="44" fill="#ffffff"/><text x="1080" y="772" font-size="22" fill="#111" text-anchor="middle">删除</text>  <rect data-hotspot-id="edit-condition-value" data-hotspot-rect="1025,278,66,34" x="1025" y="278" width="66" height="34" rx="4" fill="none" stroke="#ff4d4f" stroke-width="3"><animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="930" y="365" font-size="24" fill="#ffd166" font-weight="700">编辑条件数值文本框，输入 1</text>
+  <text x="930" y="400" font-size="20" fill="#ffd166">此时条件为：玩家存活数等于 1 时</text>
+</svg>

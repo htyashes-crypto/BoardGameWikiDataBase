@@ -1,0 +1,22 @@
+{
+  "title": "界面介绍 · 主界面 · 资源管理器",
+  "order": 7,
+  "items": [
+    {
+      "file": "san-ce-resource-explorer.md",
+      "title": "三、资源管理器"
+    },
+    {
+      "file": "layout.md",
+      "title": "布局"
+    },
+    {
+      "file": "tab-management.md",
+      "title": "页签管理"
+    },
+    {
+      "file": "edit-entity-ui-assets.md",
+      "title": "编辑实体/UI资源"
+    }
+  ]
+}

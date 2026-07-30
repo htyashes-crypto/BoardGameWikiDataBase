@@ -1,0 +1,26 @@
+{
+  "title": "主要功能 · 实体控件",
+  "order": 15,
+  "items": [
+    {
+      "file": "er-ce-entity-widgets.md",
+      "title": "二、实体控件"
+    },
+    {
+      "file": "basic-widgets.md",
+      "title": "基础控件"
+    },
+    {
+      "file": "player-placeholder-object.md",
+      "title": "玩家占位对象"
+    },
+    {
+      "file": "chessboard-kit.md",
+      "title": "棋盘套件"
+    },
+    {
+      "file": "functional-model.md",
+      "title": "功能模型"
+    }
+  ]
+}

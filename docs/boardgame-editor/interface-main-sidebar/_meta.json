@@ -1,0 +1,34 @@
+{
+  "title": "界面介绍 · 主界面 · 侧边栏",
+  "order": 5,
+  "items": [
+    {
+      "file": "yi-ce-sidebar.md",
+      "title": "一、侧边栏"
+    },
+    {
+      "file": "main-menu-button.md",
+      "title": "主菜单按钮"
+    },
+    {
+      "file": "config-panel-button.md",
+      "title": "配置面板按钮"
+    },
+    {
+      "file": "hierarchy-browser-button.md",
+      "title": "层级浏览器按钮"
+    },
+    {
+      "file": "save-button.md",
+      "title": "保存按钮"
+    },
+    {
+      "file": "run-project-button.md",
+      "title": "运行项目按钮"
+    },
+    {
+      "file": "exit-project-button.md",
+      "title": "退出当前项目按钮"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "id": "configure-game-conditions",
+  "title": "配置游戏条件",
+  "description": "配置用于游戏结束或玩家淘汰规则的条件判断",
+  "entryScene": "click-game-conditions",
+  "scenes": {
+    "click-game-conditions": {
+      "background": "img/click-game-conditions.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-game-conditions",
+          "rect": [
+            100,
+            640,
+            300,
+            34
+          ],
+          "tooltip": "点击游戏条件",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "add-game-condition"
+            }
+          ]
+        }
+      ]
+    },
+    "add-game-condition": {
+      "background": "img/add-game-condition.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "add-game-condition",
+          "rect": [
+            500,
+            742,
+            180,
+            44
+          ],
+          "tooltip": "点击 Add",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "rename-game-condition"
+            }
+          ]
+        }
+      ]
+    },
+    "rename-game-condition": {
+      "background": "img/rename-game-condition.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "rename-game-condition",
+          "rect": [
+            680,
+            120,
+            800,
+            32
+          ],
+          "tooltip": "编辑条件名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-none-condition-item"
+            }
+          ]
+        }
+      ]
+    },
+    "click-none-condition-item": {
+      "background": "img/click-none-condition-item.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-none-condition-item",
+          "rect": [
+            900,
+            278,
+            58,
+            34
+          ],
+          "tooltip": "点击无",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-player-alive-count"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-player-alive-count": {
+      "background": "img/choose-player-alive-count.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-player-alive-count",
+          "rect": [
+            1130,
+            350,
+            330,
+            32
+          ],
+          "tooltip": "点击玩家存活数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "edit-condition-value"
+            }
+          ]
+        }
+      ]
+    },
+    "edit-condition-value": {
+      "background": "img/edit-condition-value.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "edit-condition-value",
+          "rect": [
+            1025,
+            278,
+            66,
+            34
+          ],
+          "tooltip": "设置条件数值为 1",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-game-condition"
+            }
+          ]
+        }
+      ]
+    },
+    "save-game-condition": {
+      "background": "img/save-game-condition.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "save-game-condition",
+          "rect": [
+            20,
+            330,
+            50,
+            60
+          ],
+          "tooltip": "点击保存按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-game-conditions"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

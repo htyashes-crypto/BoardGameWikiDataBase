@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "id": "seat-settings",
+  "title": "座位设置",
+  "description": "配置桌游最大玩家人数，并为座位指定对应的玩家类型",
+  "entryScene": "click-seat-settings",
+  "scenes": {
+    "click-seat-settings": {
+      "background": "img/click-seat-settings.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-seat-settings",
+          "rect": [
+            100,
+            150,
+            300,
+            34
+          ],
+          "tooltip": "点击座位设置",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "edit-max-player-count"
+            }
+          ]
+        },
+        {
+          "id": "link-edit-player-type",
+          "rect": [
+            632,
+            250,
+            170,
+            26
+          ],
+          "tooltip": "打开编辑玩家类型章节",
+          "actions": [
+            {
+              "type": "link",
+              "href": "app://teach/edit-player-type"
+            }
+          ]
+        }
+      ]
+    },
+    "edit-max-player-count": {
+      "background": "img/edit-max-player-count.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "input-max-player-count",
+          "rect": [
+            1140,
+            75,
+            310,
+            38
+          ],
+          "tooltip": "修改最大玩家人数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-seat-edit-button"
+            }
+          ]
+        }
+      ]
+    },
+    "click-seat-edit-button": {
+      "background": "img/click-seat-edit-button.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-edit-seat-player-type",
+          "rect": [
+            615,
+            307,
+            135,
+            38
+          ],
+          "tooltip": "点击座位卡片内的 Edit",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-seat-player-type"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-seat-player-type": {
+      "background": "img/choose-seat-player-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "option-seat-player-type",
+          "rect": [
+            665,
+            416,
+            405,
+            32
+          ],
+          "tooltip": "选择座位对应的玩家类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-seat-settings"
+            }
+          ]
+        }
+      ]
+    },
+    "save-seat-settings": {
+      "background": "img/save-seat-settings.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-save-seat-settings",
+          "rect": [
+            20,
+            330,
+            50,
+            60
+          ],
+          "tooltip": "点击保存按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-seat-settings"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "主界面",
+  "order": 1,
+  "items": [
+    "import-images",
+    "edit-player-type",
+    "seat-settings",
+    "add-player-placeholder-in-scene",
+    "configure-game-conditions",
+    "configure-game-end-rule"
+  ]
+}

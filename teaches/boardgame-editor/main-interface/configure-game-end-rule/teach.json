@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "id": "configure-game-end-rule",
+  "title": "配置游戏结束规则",
+  "description": "配置判断游戏何时结束以及胜利者的逻辑规则",
+  "entryScene": "click-logic-rules",
+  "scenes": {
+    "click-logic-rules": {
+      "background": "img/click-logic-rules.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-logic-rules",
+          "rect": [
+            100,
+            680,
+            300,
+            34
+          ],
+          "tooltip": "点击逻辑规则",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "add-end-rule"
+            }
+          ]
+        },
+        {
+          "id": "link-configure-game-conditions",
+          "rect": [
+            635,
+            792,
+            210,
+            28
+          ],
+          "tooltip": "打开配置游戏条件章节",
+          "actions": [
+            {
+              "type": "link",
+              "href": "app://teach/configure-game-conditions"
+            }
+          ]
+        }
+      ]
+    },
+    "add-end-rule": {
+      "background": "img/add-end-rule.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "add-end-rule",
+          "rect": [
+            500,
+            742,
+            180,
+            44
+          ],
+          "tooltip": "点击 Add",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-game-end-rule"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-game-end-rule": {
+      "background": "img/choose-game-end-rule.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-game-end-rule",
+          "rect": [
+            1130,
+            350,
+            330,
+            32
+          ],
+          "tooltip": "选择游戏结束规则",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "rename-end-rule"
+            }
+          ]
+        }
+      ]
+    },
+    "rename-end-rule": {
+      "background": "img/rename-end-rule.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "rename-end-rule",
+          "rect": [
+            680,
+            120,
+            800,
+            32
+          ],
+          "tooltip": "重命名规则名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-condition-button"
+            }
+          ]
+        }
+      ]
+    },
+    "click-condition-button": {
+      "background": "img/click-condition-button.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-condition-button",
+          "rect": [
+            680,
+            260,
+            70,
+            34
+          ],
+          "tooltip": "点击 Button",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-condition-category"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-condition-category": {
+      "background": "img/choose-condition-category.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-condition-category",
+          "rect": [
+            1130,
+            350,
+            330,
+            32
+          ],
+          "tooltip": "选择条件",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-game-end-condition"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-game-end-condition": {
+      "background": "img/choose-game-end-condition.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-game-end-condition",
+          "rect": [
+            1130,
+            350,
+            330,
+            32
+          ],
+          "tooltip": "选择游戏结束条件",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-game-end-rule"
+            }
+          ]
+        }
+      ]
+    },
+    "save-game-end-rule": {
+      "background": "img/save-game-end-rule.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "save-game-end-rule",
+          "rect": [
+            20,
+            330,
+            50,
+            60
+          ],
+          "tooltip": "点击保存按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-logic-rules"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

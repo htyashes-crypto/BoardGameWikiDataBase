@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "new-project",
+  "title": "新建项目",
+  "description": "从模板市场选择回合制卡牌类桌游模板，并设置项目名称与保存位置创建新工程",
+  "entryScene": "project-browser",
+  "scenes": {
+    "project-browser": {
+      "background": "img/project-browser.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-new-project",
+          "rect": [
+            1545,
+            60,
+            90,
+            36
+          ],
+          "tooltip": "点击新建工程",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "select-template"
+            }
+          ]
+        }
+      ]
+    },
+    "select-template": {
+      "background": "img/new-project-step-template.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "select-turn-card-template",
+          "rect": [
+            730,
+            516,
+            420,
+            44
+          ],
+          "tooltip": "选中回合制卡牌类桌游模板",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "edit-project-settings"
+            }
+          ]
+        }
+      ]
+    },
+    "edit-project-settings": {
+      "background": "img/new-project-step-settings.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "edit-project-settings",
+          "rect": [
+            1220,
+            532,
+            240,
+            124
+          ],
+          "tooltip": "编辑项目名称和位置",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "create-project"
+            }
+          ]
+        }
+      ]
+    },
+    "create-project": {
+      "background": "img/new-project-step-create.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "create-project",
+          "rect": [
+            1350,
+            794,
+            120,
+            36
+          ],
+          "tooltip": "点击创建项目",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "project-created"
+            }
+          ]
+        }
+      ]
+    },
+    "project-created": {
+      "background": "img/project-created.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "restart-new-project",
+          "rect": [
+            1545,
+            60,
+            90,
+            36
+          ],
+          "tooltip": "再创建一个新项目",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "project-browser"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "蓝图编辑器 · 蓝图管理界面",
+  "order": 11,
+  "items": [
+    {
+      "file": "er-ce-blueprint-management.md",
+      "title": "二、蓝图管理界面"
+    },
+    {
+      "file": "blueprint-class-management.md",
+      "title": "蓝图类管理"
+    },
+    {
+      "file": "global-events-management.md",
+      "title": "全局事件管理"
+    },
+    {
+      "file": "struct-management.md",
+      "title": "结构体管理"
+    },
+    {
+      "file": "tag-functions.md",
+      "title": "标签函数"
+    }
+  ]
+}

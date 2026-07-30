@@ -1,0 +1,9 @@
+{
+  "title": "桌游编辑器",
+  "order": 0,
+  "items": [
+    "project-browser",
+    "main-interface",
+    "blueprint-editor"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">  <rect width="1920" height="1080" fill="#101010"/>
+  <rect x="0" y="0" width="120" height="1080" fill="#151515"/>
+  <circle cx="60" cy="50" r="18" fill="#cc785c"/>
+  <text x="170" y="72" font-size="28" fill="#f5f5f5" font-weight="700">工程项目</text>
+  <rect x="1180" y="92" width="250" height="36" fill="#111" stroke="#333"/><text x="1210" y="116" font-size="16" fill="#777">搜索</text>
+  <rect x="1510" y="92" width="120" height="36" fill="#222"/><text x="1570" y="116" font-size="16" fill="#ddd" text-anchor="middle">打开工程</text>
+  <rect x="1660" y="92" width="120" height="36" rx="4" fill="#d98a1d"/><text x="1720" y="116" font-size="16" fill="#fff" text-anchor="middle">新建工程</text>
+  <text x="170" y="160" font-size="18" fill="#aaa">名称</text><text x="600" y="160" font-size="18" fill="#aaa">路径</text>
+  <g font-size="16" fill="#bdbdbd">
+    <rect x="145" y="185" width="1620" height="40" fill="#151515"/><text x="210" y="212">狼人杀</text><text x="600" y="212">E:\Work\UnityProjects\BoardGameEditor\桌游工程文件\狼人杀\BlueprintProject</text>
+    <rect x="145" y="235" width="1620" height="40" fill="#151515"/><text x="210" y="262">UNO</text><text x="600" y="262">E:\Work\UnityProjects\BoardGameEditor\桌游工程文件\UNO\BlueprintProject</text>
+    <rect x="145" y="285" width="1620" height="40" fill="#151515"/><text x="210" y="312">卡牌模板</text><text x="600" y="312">E:\Work\UnityProjects\BoardGameEditor\桌游工程文件\卡牌模板\BlueprintProject</text>
+    <rect x="145" y="335" width="1620" height="40" fill="#151515"/><text x="210" y="362">空白教学项目</text><text x="600" y="362">E:\Work\UnityProjects\BoardGameEditor\桌游工程文件\空白教学项目\BlueprintProject</text>
+  </g>  <rect data-hotspot-id="open-teach-project-blueprint" data-hotspot-rect="145,335,1260,40" x="145" y="335" width="1260" height="40" rx="4" fill="none" stroke="#ff4d4f" stroke-width="3"><animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="1080" y="430" font-size="24" fill="#ffd166" font-weight="700">点击空白教学项目，打开教学项目蓝图</text>
+</svg>

@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "id": "create-card-struct",
+  "title": "制作卡牌结构体",
+  "description": "创建卡牌数据结构体，并添加 ID、名称、费用等字段",
+  "entryScene": "open-teach-project-blueprint",
+  "scenes": {
+    "open-teach-project-blueprint": {
+      "background": "img/open-teach-project-blueprint.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "open-teach-project-blueprint",
+          "rect": [
+            145,
+            335,
+            1260,
+            40
+          ],
+          "tooltip": "打开教学项目蓝图",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-struct-tab"
+            }
+          ]
+        }
+      ]
+    },
+    "click-struct-tab": {
+      "background": "img/click-struct-tab.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-struct-tab",
+          "rect": [
+            450,
+            100,
+            180,
+            40
+          ],
+          "tooltip": "点击结构体管理",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "input-struct-name"
+            }
+          ]
+        }
+      ]
+    },
+    "input-struct-name": {
+      "background": "img/input-struct-name.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "input-struct-name",
+          "rect": [
+            265,
+            155,
+            180,
+            34
+          ],
+          "tooltip": "输入卡牌数据",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-create-struct"
+            }
+          ]
+        }
+      ]
+    },
+    "click-create-struct": {
+      "background": "img/click-create-struct.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-create-struct",
+          "rect": [
+            145,
+            150,
+            120,
+            34
+          ],
+          "tooltip": "点击新建结构体",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "select-created-struct"
+            }
+          ]
+        }
+      ]
+    },
+    "select-created-struct": {
+      "background": "img/select-created-struct.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "select-created-struct",
+          "rect": [
+            160,
+            205,
+            280,
+            86
+          ],
+          "tooltip": "选中新建结构体",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-field"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-field": {
+      "background": "img/click-add-field.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-add-field",
+          "rect": [
+            1452,
+            218,
+            28,
+            28
+          ],
+          "tooltip": "点击字段列表加号",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "edit-id-field-name"
+            }
+          ]
+        }
+      ]
+    },
+    "edit-id-field-name": {
+      "background": "img/edit-id-field-name.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "edit-id-field-name",
+          "rect": [
+            1350,
+            288,
+            70,
+            24
+          ],
+          "tooltip": "输入字段名 ID",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-id-field-type"
+            }
+          ]
+        }
+      ]
+    },
+    "click-id-field-type": {
+      "background": "img/click-id-field-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-id-field-type",
+          "rect": [
+            1420,
+            288,
+            78,
+            24
+          ],
+          "tooltip": "点击字段类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-int-type"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-int-type": {
+      "background": "img/choose-int-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-int-type",
+          "rect": [
+            1145,
+            415,
+            330,
+            28
+          ],
+          "tooltip": "选择 Int",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "first-field-complete"
+            }
+          ]
+        }
+      ]
+    },
+    "first-field-complete": {
+      "background": "img/first-field-complete.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "first-field-complete",
+          "rect": [
+            1260,
+            280,
+            240,
+            40
+          ],
+          "tooltip": "第一项字段完成",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "add-name-field"
+            }
+          ]
+        }
+      ]
+    },
+    "add-name-field": {
+      "background": "img/add-name-field.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "add-name-field",
+          "rect": [
+            1260,
+            280,
+            240,
+            70
+          ],
+          "tooltip": "添加名称字段",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "add-cost-field"
+            }
+          ]
+        }
+      ]
+    },
+    "add-cost-field": {
+      "background": "img/add-cost-field.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "add-cost-field",
+          "rect": [
+            1260,
+            280,
+            240,
+            100
+          ],
+          "tooltip": "添加费用字段",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "open-teach-project-blueprint"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

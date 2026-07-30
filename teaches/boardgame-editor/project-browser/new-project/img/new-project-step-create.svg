@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="1920" height="1080" fill="#0f0f0f"/>
+  <rect y="0" width="1920" height="110" fill="#0f0f0f"/>
+  <g transform="translate(60, 28)" opacity="0.45">
+    <circle cx="20" cy="20" r="20" fill="#cc785c"/>
+    <circle cx="20" cy="20" r="8" fill="#0f0f0f"/>
+  </g>
+  <text x="120" y="56" font-size="22" fill="#f5f5f5" font-weight="700" opacity="0.45">桌游编辑器</text>
+  <g transform="translate(1450, 60)" opacity="0.45">
+    <rect width="90" height="36" rx="4" fill="#252525" stroke="#3a3a3a"/>
+    <text x="45" y="23" font-size="12" fill="#f5f5f5" text-anchor="middle">打开工程</text>
+  </g>
+  <g transform="translate(1545, 60)" opacity="0.45">
+    <rect width="90" height="36" rx="4" fill="#cc785c"/>
+    <text x="45" y="23" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">新建工程</text>
+  </g>
+  <g transform="translate(1640, 60)" opacity="0.45">
+    <rect width="90" height="36" rx="4" fill="#4f46e5"/>
+    <text x="45" y="23" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">游戏商店</text>
+  </g>
+  <text x="120" y="130" font-size="14" fill="#9ca3af" opacity="0.45">工程项目</text>
+  <rect y="140" width="1920" height="20" fill="#161616" opacity="0.45"/>
+  <text x="120" y="154" font-size="11" fill="#6b7280" font-weight="600" opacity="0.45">名称</text>
+  <text x="380" y="154" font-size="11" fill="#6b7280" font-weight="600" opacity="0.45">路径</text>
+  <g opacity="0.45" font-family="-apple-system, 'Segoe UI', sans-serif">
+    <rect x="80" y="165" width="1760" height="56" fill="#161616"/>
+    <text x="120" y="198" font-size="14" fill="#f5f5f5">十二军团</text>
+    <text x="380" y="198" font-size="12" fill="#9ca3af">E:\Work\UnityProjects\BoardGameEditor\桌游工程文件\十二军团</text>
+    <rect x="80" y="221" width="1760" height="48" fill="#1a1a1a"/>
+    <text x="120" y="250" font-size="14" fill="#e5e5e5">宝石商人</text>
+    <rect x="80" y="269" width="1760" height="48" fill="#161616"/>
+    <text x="120" y="298" font-size="14" fill="#e5e5e5">谁是JOKER</text>
+    <rect x="80" y="317" width="1760" height="48" fill="#1a1a1a"/>
+    <text x="120" y="346" font-size="14" fill="#e5e5e5">回合制桌游模板</text>
+    <rect x="80" y="365" width="1760" height="48" fill="#161616"/>
+    <text x="120" y="394" font-size="14" fill="#e5e5e5">诈骗巫师</text>
+    <rect x="80" y="413" width="1760" height="48" fill="#1a1a1a"/>
+    <text x="120" y="442" font-size="14" fill="#e5e5e5">爆破猫</text>
+  </g>
+  <rect width="1920" height="1080" fill="#000" opacity="0.35"/>
+  <svg x="430" y="230" width="1060" height="620" viewBox="0 0 1060 620">
+    <rect width="1060" height="620" rx="10" fill="#1a1a1a" stroke="#8b4d3e" stroke-width="1.5"/>
+    <rect width="1060" height="58" rx="10" fill="#252525"/>
+    <rect y="48" width="1060" height="10" fill="#252525"/>
+    <g transform="translate(20, 18)">
+      <circle cx="11" cy="11" r="11" fill="#cc785c"/>
+      <circle cx="11" cy="11" r="5" fill="#252525"/>
+    </g>
+    <text x="60" y="36" font-size="18" fill="#f5f5f5" font-weight="700">新建项目</text>
+    <text x="168" y="36" font-size="13" fill="#9ca3af">模板市场</text>
+    <rect x="0" y="58" width="180" height="506" fill="#161616"/>
+    <rect x="180" y="58" width="580" height="506" fill="#141414"/>
+    <rect x="760" y="58" width="300" height="506" fill="#161616"/>
+    <line x1="180" y1="58" x2="180" y2="564" stroke="#2a2a2a"/>
+    <line x1="760" y1="58" x2="760" y2="564" stroke="#2a2a2a"/>
+    <text x="24" y="88" font-size="12" fill="#9ca3af" font-weight="600">分类</text>
+    <g transform="translate(24, 108)"><rect width="96" height="42" rx="4" fill="#3b82f6"/><text x="48" y="18" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">所有模板</text><text x="48" y="33" font-size="10" fill="#dbeafe" text-anchor="middle">全部</text></g>
+    <g transform="translate(24, 164)"><rect width="96" height="42" rx="4" fill="#22c55e"/><text x="48" y="18" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">游戏模板</text><text x="48" y="33" font-size="10" fill="#dcfce7" text-anchor="middle">玩法示例</text></g>
+    <g transform="translate(24, 220)"><rect width="96" height="42" rx="4" fill="#22c55e"/><text x="48" y="18" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">通用模板</text><text x="48" y="33" font-size="10" fill="#dcfce7" text-anchor="middle">空白/基础</text></g>
+    <text x="300" y="88" font-size="12" fill="#9ca3af" font-weight="600">选择模板</text>
+    <text x="410" y="88" font-size="12" fill="#cc785c">当前：游戏模板</text>
+    <g transform="translate(300, 106)"><rect width="420" height="44" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/><path d="M18 10 L34 16 L30 34 L22 38 L14 34 L10 16 Z" fill="none" stroke="#9ca3af" stroke-width="2"/><text x="54" y="20" font-size="13" fill="#fff" font-weight="700">UNO</text><text x="54" y="36" font-size="10" fill="#bfdbfe">游戏模板</text><text x="400" y="28" font-size="18" fill="#e5e5e5" text-anchor="middle">×</text></g>
+    <g transform="translate(300, 166)"><rect width="420" height="38" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/><path d="M18 9 L33 15 L29 31 L22 35 L15 31 L11 15 Z" fill="none" stroke="#9ca3af" stroke-width="1.6"/><text x="54" y="16" font-size="12" fill="#e5e5e5">抓字牌</text><text x="54" y="31" font-size="10" fill="#6b7280">游戏模板</text></g>
+    <g transform="translate(300, 226)"><rect width="420" height="38" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/><path d="M18 9 L33 15 L29 31 L22 35 L15 31 L11 15 Z" fill="none" stroke="#9ca3af" stroke-width="1.6"/><text x="54" y="16" font-size="12" fill="#e5e5e5">LYF牌子酒馆</text><text x="54" y="31" font-size="10" fill="#6b7280">游戏模板</text></g>
+    <g transform="translate(300, 286)"><rect width="420" height="44" rx="4" fill="#2563eb" stroke="#2a2a2a"/><path d="M18 10 L34 16 L30 34 L22 38 L14 34 L10 16 Z" fill="none" stroke="#e5e5e5" stroke-width="2"/><text x="54" y="20" font-size="13" fill="#fff" font-weight="700">回合制卡牌类桌游模板</text><text x="54" y="36" font-size="10" fill="#ffe7d9">适合回合流程、卡牌与玩家操作教学</text><text x="400" y="28" font-size="18" fill="#e5e5e5" text-anchor="middle">×</text></g>
+    <g transform="translate(300, 348)"><rect width="420" height="38" rx="4" fill="#1f1f1f" stroke="#2a2a2a"/><path d="M18 9 L33 15 L29 31 L22 35 L15 31 L11 15 Z" fill="none" stroke="#9ca3af" stroke-width="1.6"/><text x="54" y="16" font-size="12" fill="#e5e5e5">NoThanks</text><text x="54" y="31" font-size="10" fill="#6b7280">游戏模板</text></g>
+    <rect x="788" y="90" width="220" height="116" rx="4" fill="#0f0f0f" stroke="#252525"/>
+    <text x="790" y="232" font-size="12" fill="#9ca3af">回合制卡牌类桌游模板</text>
+    <text x="790" y="252" font-size="10" fill="#6b7280">用于快速创建包含回合和卡牌结构的工程。</text>
+    <text x="790" y="286" font-size="12" fill="#9ca3af" font-weight="600">项目设置</text>
+    <text x="790" y="316" font-size="12" fill="#9ca3af">项目名称</text>
+    <rect x="790" y="326" width="240" height="30" rx="4" fill="#0a0a0a" stroke="#66352c"/>
+    <text x="804" y="345" font-size="12" fill="#f5f5f5">回合制卡牌教学项目</text>
+    <text x="790" y="386" font-size="12" fill="#9ca3af">位置</text>
+    <rect x="790" y="396" width="240" height="30" rx="4" fill="#0a0a0a" stroke="#66352c"/>
+    <text x="804" y="415" font-size="11" fill="#f5f5f5">桌游工程文件夹/教学项目</text>
+    <text x="1015" y="415" font-size="14" fill="#9ca3af" text-anchor="end">□</text>
+    <line x1="0" y1="564" x2="1060" y2="564" stroke="#2a2a2a"/>
+    <g transform="translate(630, 564)"><rect width="120" height="36" rx="4" fill="#252525"/><text x="60" y="23" font-size="12" fill="#e5e5e5" text-anchor="middle">创建空项目</text></g>
+    <g transform="translate(810, 564)"><rect width="90" height="36" rx="4" fill="#252525"/><text x="45" y="23" font-size="12" fill="#e5e5e5" text-anchor="middle">取消</text></g>
+    <g transform="translate(920, 564)"><rect width="120" height="36" rx="4" fill="#cc785c"/><text x="60" y="23" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">创建项目</text></g>
+  </svg>
+  <rect x="1344" y="788" width="132" height="48" rx="6" fill="none" stroke="#ff4d4f" stroke-width="3">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="1288" y="740" font-size="26" fill="#ffd166" font-weight="700">点击创建项目</text>
+</svg>

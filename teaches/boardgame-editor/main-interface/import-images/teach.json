@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "import-images",
+  "title": "导入图片",
+  "description": "将自己的桌游图片素材（例如卡牌牌面、牌背）导入到当前工程项目内",
+  "entryScene": "click-import-images",
+  "scenes": {
+    "click-import-images": {
+      "background": "img/click-import-images.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-import-images",
+          "rect": [
+            100,
+            642,
+            360,
+            44
+          ],
+          "tooltip": "点击导入图片",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-button"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-button": {
+      "background": "img/click-add-button.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-add-image",
+          "rect": [
+            515,
+            124,
+            54,
+            42
+          ],
+          "tooltip": "点击左上角加号按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "select-image-files"
+            }
+          ]
+        }
+      ]
+    },
+    "select-image-files": {
+      "background": "img/select-image-files.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "select-files",
+          "rect": [
+            700,
+            250,
+            640,
+            170
+          ],
+          "tooltip": "选择要导入的图片素材",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "confirm-open-files"
+            }
+          ]
+        }
+      ]
+    },
+    "confirm-open-files": {
+      "background": "img/confirm-open-files.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-open-files",
+          "rect": [
+            1268,
+            652,
+            90,
+            34
+          ],
+          "tooltip": "点击打开确认导入",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "import-complete"
+            }
+          ]
+        }
+      ]
+    },
+    "import-complete": {
+      "background": "img/import-complete.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "restart-import-images",
+          "rect": [
+            100,
+            642,
+            360,
+            44
+          ],
+          "tooltip": "重新学习导入图片",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-import-images"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

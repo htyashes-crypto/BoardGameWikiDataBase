@@ -1,0 +1,734 @@
+{
+  "version": 1,
+  "id": "create-card-blueprint",
+  "title": "制作卡牌蓝图",
+  "description": "创建卡牌蓝图，配置卡牌数据变量、初始化函数与设置变量逻辑",
+  "entryScene": "click-blueprint-class-tab",
+  "scenes": {
+    "click-blueprint-class-tab": {
+      "background": "img/click-blueprint-class-tab.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-blueprint-class-tab",
+          "rect": [
+            198,
+            132,
+            136,
+            34
+          ],
+          "tooltip": "点击蓝图类管理",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "input-blueprint-name"
+            }
+          ]
+        }
+      ]
+    },
+    "input-blueprint-name": {
+      "background": "img/input-blueprint-name.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "input-blueprint-name",
+          "rect": [
+            740,
+            144,
+            205,
+            36
+          ],
+          "tooltip": "输入卡牌蓝图名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-create-custom-class"
+            }
+          ]
+        }
+      ]
+    },
+    "click-create-custom-class": {
+      "background": "img/click-create-custom-class.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-create-custom-class",
+          "rect": [
+            610,
+            144,
+            150,
+            36
+          ],
+          "tooltip": "点击创建自定义类",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-create-empty"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-create-empty": {
+      "background": "img/choose-create-empty.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-create-empty",
+          "rect": [
+            740,
+            244,
+            335,
+            32
+          ],
+          "tooltip": "点击 CreateEmpty",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "blueprint-created"
+            }
+          ]
+        }
+      ]
+    },
+    "blueprint-created": {
+      "background": "img/blueprint-created.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "blueprint-created",
+          "rect": [
+            190,
+            250,
+            325,
+            118
+          ],
+          "tooltip": "蓝图创建完成",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-blueprint-menu"
+            }
+          ]
+        }
+      ]
+    },
+    "click-blueprint-menu": {
+      "background": "img/click-blueprint-menu.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-blueprint-menu",
+          "rect": [
+            440,
+            250,
+            36,
+            36
+          ],
+          "tooltip": "点击蓝图类右上角按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-open-blueprint"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-open-blueprint": {
+      "background": "img/choose-open-blueprint.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-open-blueprint",
+          "rect": [
+            505,
+            332,
+            385,
+            32
+          ],
+          "tooltip": "点击 Open",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-variable"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-variable": {
+      "background": "img/click-add-variable.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-add-variable",
+          "rect": [
+            452,
+            268,
+            36,
+            32
+          ],
+          "tooltip": "点击变量加号",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-variable-type"
+            }
+          ]
+        }
+      ]
+    },
+    "click-variable-type": {
+      "background": "img/click-variable-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-variable-type",
+          "rect": [
+            295,
+            298,
+            175,
+            30
+          ],
+          "tooltip": "点击变量类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-struct-category"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-struct-category": {
+      "background": "img/choose-struct-category.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-struct-category",
+          "rect": [
+            188,
+            672,
+            325,
+            32
+          ],
+          "tooltip": "选择 Struct",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-card-data-struct"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-card-data-struct": {
+      "background": "img/choose-card-data-struct.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-card-data-struct",
+          "rect": [
+            188,
+            350,
+            325,
+            32
+          ],
+          "tooltip": "选择卡牌数据",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-variable-menu"
+            }
+          ]
+        }
+      ]
+    },
+    "click-variable-menu": {
+      "background": "img/click-variable-menu.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-variable-menu",
+          "rect": [
+            440,
+            294,
+            36,
+            34
+          ],
+          "tooltip": "点击变量右侧按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-rename-variable"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-rename-variable": {
+      "background": "img/choose-rename-variable.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-rename-variable",
+          "rect": [
+            505,
+            332,
+            385,
+            32
+          ],
+          "tooltip": "点击 Rename",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "rename-variable"
+            }
+          ]
+        }
+      ]
+    },
+    "rename-variable": {
+      "background": "img/rename-variable.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "rename-variable",
+          "rect": [
+            162,
+            292,
+            98,
+            30
+          ],
+          "tooltip": "修改变量名称",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-function"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-function": {
+      "background": "img/click-add-function.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-add-function",
+          "rect": [
+            452,
+            198,
+            36,
+            34
+          ],
+          "tooltip": "点击函数加号",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-function-menu"
+            }
+          ]
+        }
+      ]
+    },
+    "click-function-menu": {
+      "background": "img/click-function-menu.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-function-menu",
+          "rect": [
+            455,
+            216,
+            30,
+            30
+          ],
+          "tooltip": "点击函数右侧按钮",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-rename-function"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-rename-function": {
+      "background": "img/choose-rename-function.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-rename-function",
+          "rect": [
+            505,
+            332,
+            385,
+            32
+          ],
+          "tooltip": "点击 Rename",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "rename-function"
+            }
+          ]
+        }
+      ]
+    },
+    "rename-function": {
+      "background": "img/rename-function.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "rename-function",
+          "rect": [
+            162,
+            216,
+            150,
+            30
+          ],
+          "tooltip": "重命名函数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "open-function-editor"
+            }
+          ]
+        }
+      ]
+    },
+    "open-function-editor": {
+      "background": "img/open-function-editor.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "open-function-editor",
+          "rect": [
+            138,
+            210,
+            352,
+            46
+          ],
+          "tooltip": "双击初始化函数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-add-input-param"
+            }
+          ]
+        }
+      ]
+    },
+    "click-add-input-param": {
+      "background": "img/click-add-input-param.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-add-input-param",
+          "rect": [
+            1754,
+            240,
+            42,
+            36
+          ],
+          "tooltip": "点击输入参数加号",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "entry-param-added"
+            }
+          ]
+        }
+      ]
+    },
+    "entry-param-added": {
+      "background": "img/entry-param-added.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "entry-param-added",
+          "rect": [
+            568,
+            628,
+            252,
+            44
+          ],
+          "tooltip": "入口节点多出参数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-param-type"
+            }
+          ]
+        }
+      ]
+    },
+    "click-param-type": {
+      "background": "img/click-param-type.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "click-param-type",
+          "rect": [
+            1588,
+            294,
+            150,
+            28
+          ],
+          "tooltip": "设置参数类型",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "rename-input-param"
+            }
+          ]
+        }
+      ]
+    },
+    "rename-input-param": {
+      "background": "img/rename-input-param.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "rename-input-param",
+          "rect": [
+            1468,
+            294,
+            112,
+            28
+          ],
+          "tooltip": "重命名输入参数",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "drag-card-data-variable"
+            }
+          ]
+        }
+      ]
+    },
+    "drag-card-data-variable": {
+      "background": "img/drag-card-data-variable.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "drag-card-data-variable",
+          "rect": [
+            138,
+            292,
+            352,
+            42
+          ],
+          "tooltip": "拖拽变量到画布",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "choose-setvar"
+            }
+          ]
+        }
+      ]
+    },
+    "choose-setvar": {
+      "background": "img/choose-setvar.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "choose-setvar",
+          "rect": [
+            505,
+            414,
+            385,
+            32
+          ],
+          "tooltip": "选择 SetVar",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "setvar-created"
+            }
+          ]
+        }
+      ]
+    },
+    "setvar-created": {
+      "background": "img/setvar-created.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "setvar-created",
+          "rect": [
+            868,
+            428,
+            304,
+            178
+          ],
+          "tooltip": "新增设置变量节点",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "drag-exec-line"
+            }
+          ]
+        }
+      ]
+    },
+    "drag-exec-line": {
+      "background": "img/drag-exec-line.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "drag-exec-line",
+          "rect": [
+            760,
+            588,
+            160,
+            128
+          ],
+          "tooltip": "拖拽执行出口连线",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "lines-connected"
+            }
+          ]
+        }
+      ]
+    },
+    "lines-connected": {
+      "background": "img/lines-connected.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "lines-connected",
+          "rect": [
+            670,
+            520,
+            810,
+            235
+          ],
+          "tooltip": "连接好连线",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "save-card-blueprint"
+            }
+          ]
+        }
+      ]
+    },
+    "save-card-blueprint": {
+      "background": "img/save-card-blueprint.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "save-card-blueprint",
+          "rect": [
+            1432,
+            12,
+            158,
+            58
+          ],
+          "tooltip": "点击保存",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "click-blueprint-class-tab"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

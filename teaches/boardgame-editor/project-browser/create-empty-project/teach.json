@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "id": "create-empty-project",
+  "title": "新建空白项目",
+  "description": "不选择模板，设置项目名称与保存位置后创建一个新的空白工程项目",
+  "entryScene": "project-browser",
+  "scenes": {
+    "project-browser": {
+      "background": "img/project-browser.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "btn-new-project",
+          "rect": [
+            1545,
+            60,
+            90,
+            36
+          ],
+          "tooltip": "点击新建工程",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "edit-empty-project-settings"
+            }
+          ]
+        }
+      ]
+    },
+    "edit-empty-project-settings": {
+      "background": "img/empty-project-step-settings.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "edit-project-settings",
+          "rect": [
+            1220,
+            532,
+            240,
+            124
+          ],
+          "tooltip": "编辑项目名称和位置",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "create-empty-project"
+            }
+          ]
+        }
+      ]
+    },
+    "create-empty-project": {
+      "background": "img/empty-project-step-create.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "create-empty-project",
+          "rect": [
+            1060,
+            794,
+            120,
+            36
+          ],
+          "tooltip": "点击创建空项目",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "project-created"
+            }
+          ]
+        }
+      ]
+    },
+    "project-created": {
+      "background": "img/empty-project-created.svg",
+      "size": [
+        1920,
+        1080
+      ],
+      "hotspots": [
+        {
+          "id": "restart-create-empty-project",
+          "rect": [
+            1545,
+            60,
+            90,
+            36
+          ],
+          "tooltip": "再创建一个空项目",
+          "actions": [
+            {
+              "type": "navigate",
+              "to": "project-browser"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
